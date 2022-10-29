@@ -1,0 +1,31 @@
+@custom-media --breakpoint-min-s (min-width: 576px);
+@custom-media --breakpoint-min-m (min-width: 768px);
+@custom-media --breakpoint-min-l (min-width: 960px);
+@custom-media --breakpoint-min-xl (min-width: 1200px);
+@custom-media --breakpoint-min-xxl (min-width: 1840px);
+@custom-media --breakpoint-max-xs (max-width: 575px);
+@custom-media --breakpoint-max-s (max-width: 767px);
+@custom-media --breakpoint-max-m (max-width: 959px);
+@custom-media --breakpoint-max-l (max-width: 1199px);
+@custom-media --breakpoint-max-xl (max-width: 1839px);
+@custom-media --breakpoint-xs (max-width: 575px);
+@custom-media --breakpoint-s (min-width: 576px) and (max-width: 767px);
+@custom-media --breakpoint-m (min-width: 768px) and (max-width: 959px);
+@custom-media --breakpoint-l (min-width: 960px) and (max-width: 1199px);
+@custom-media --breakpoint-xl (min-width: 1200px) and (max-width: 1839px);
+@custom-media --breakpoint-xxl (min-width: 1840px);
+
+:root {
+  /* Colors */
+  --c-primary-main: #0e6efe;
+  --c-black: #000;
+  --c-white: #fff;
+  --c-background: #eee;
+
+  /* Breakpoints */
+  --s-width: 576px;
+  --m-width: 768px;
+  --l-width: 960px;
+  --xl-width: 1152px;
+  --xxl-width: 1824px;
+}

@@ -1,0 +1,9 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  padding: 10px 0;
+}
+
+.root a:not(:last-child) {
+  margin-right: 4px;
+}

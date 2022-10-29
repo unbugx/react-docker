@@ -1,0 +1,7 @@
+{
+  "name": "App",
+  "version": "0.0.1",
+  "private": true,
+  "main": "App.tsx",
+  "typings": "./App.tsx"
+}

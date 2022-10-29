@@ -1,0 +1,7 @@
+{
+  "name": "Layout",
+  "version": "0.0.1",
+  "private": true,
+  "main": "Layout.tsx",
+  "typings": "./Layout.tsx"
+}

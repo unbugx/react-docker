@@ -1,0 +1,18 @@
+FROM node:alpine
+
+WORKDIR /app
+
+RUN apk update && \
+    apk add wget && \
+    wget https://github.com/FiloSottile/mkcert/releases/download/v1.4.4/mkcert-v1.4.4-linux-amd64 && \
+    mv mkcert-v1.4.4-linux-amd64 /usr/bin/mkcert && \
+    chmod +x /usr/bin/mkcert
+
+COPY package.json ./
+COPY yarn.lock ./
+
+RUN mkcert -install
+RUN yarn install
+
+EXPOSE 44310
+CMD ["yarn", "watch"]

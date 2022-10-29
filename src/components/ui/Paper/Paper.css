@@ -1,0 +1,12 @@
+.root {
+  background: var(--c-white);
+  padding: 32px 40px;
+
+  @media (--breakpoint-s) {
+    padding: 28px 32px;
+  }
+
+  @media (--breakpoint-xs) {
+    padding: 20px 16px 24px;
+  }
+}

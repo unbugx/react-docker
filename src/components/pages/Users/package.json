@@ -1,0 +1,7 @@
+{
+  "name": "Users",
+  "version": "0.0.1",
+  "private": true,
+  "main": "Users.tsx",
+  "typings": "./Users.tsx"
+}

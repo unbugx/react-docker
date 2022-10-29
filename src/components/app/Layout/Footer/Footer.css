@@ -1,0 +1,19 @@
+.root {
+  min-height: 200px;
+  background: var(--c-black);
+  color: var(--c-white);
+  display: flex;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.copy {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

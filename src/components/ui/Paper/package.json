@@ -1,0 +1,7 @@
+{
+  "name": "Paper",
+  "version": "0.0.1",
+  "private": true,
+  "main": "./Paper.tsx",
+  "typings": "./Paper.tsx"
+}

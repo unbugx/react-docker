@@ -1,0 +1,18 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  background: var(--c-background);
+  border-top: 10px solid var(--c-black);
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  flex: 1;
+}

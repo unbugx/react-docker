@@ -1,0 +1,28 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+  @media (--breakpoint-xs) {
+    width: 100%;
+  }
+
+  @media (--breakpoint-min-s) {
+    width: var(--s-width);
+  }
+
+  @media (--breakpoint-min-m) {
+    width: var(--m-width);
+  }
+
+  @media (--breakpoint-min-l) {
+    width: var(--l-width);
+  }
+
+  @media (--breakpoint-min-xl) {
+    width: var(--xl-width);
+  }
+
+  @media (--breakpoint-min-xxl) {
+    width: var(--xxl-width);
+  }
+}

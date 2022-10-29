@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "dom", "es2017"],
+    "sourceMap": true,
+    "target": "es6",
+    "jsx": "react",
+    "baseUrl": "./src",
+    "moduleResolution": "node",
+    "strict": true,
+    "typeRoots": [
+      "types",
+      "node_modules/@types"
+    ],
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "importsNotUsedAsValues": "preserve",
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noEmitOnError": false,
+    "noImplicitAny": true,
+    "traceResolution": false,
+    "module": "commonjs"
+  },
+  "include": [
+    "./src/**/*",
+    "./webpack.config.ts"
+  ],
+  "exclude": ["dist", "build", "node_modules"]
+}
+

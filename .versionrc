@@ -1,0 +1,16 @@
+{
+  "types": [
+    {"type": "feat", "section": "Features"},
+    {"type": "fix", "section": "Bug Fixes"},
+    {"type": "chore", "hidden": true},
+    {"type": "docs", "hidden": true},
+    {"type": "style", "hidden": true},
+    {"type": "refactor", "section": "Code Refactoring"},
+    {"type": "revert", "section": "Revert"},
+    {"type": "perf", "section": "Performance"},
+    {"type": "test", "hidden": true},
+    {"type": "types", "hidden": true},
+    {"type": "build", "section":"Build System"},
+    {"type": "ci", "section":"CI config"}
+  ]
+}

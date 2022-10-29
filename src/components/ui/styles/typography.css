@@ -1,0 +1,11 @@
+/* Default page font */
+html,
+body {
+  color: var(--c-black);
+  font-size: 14px;
+  line-height: 20px;
+}
+
+a {
+  color: var(--c-primary-main);
+}
