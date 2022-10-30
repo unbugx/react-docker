@@ -1,5 +1,5 @@
 export type QaProps = {
-  'data-auto': string
+  dataAuto: string
 }
 
 export type QaPropsOptional = Partial<QaProps>

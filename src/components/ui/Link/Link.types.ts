@@ -6,4 +6,5 @@ export type LinkProps = {
   onClick?: React.MouseEventHandler<HTMLElement>
   className?: string
   disabled?: boolean
+  children?: React.ReactNode
 }

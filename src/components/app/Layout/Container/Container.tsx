@@ -15,7 +15,7 @@ export const Container: React.FC<ContainerProps> = ({
   children,
   className,
   as: Component = 'div',
-  'data-auto': dataAuto,
+  dataAuto,
 }) => {
   return (
     <Component className={cx(s.container, className)} data-auto={dataAuto}>

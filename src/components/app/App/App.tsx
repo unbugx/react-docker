@@ -10,7 +10,5 @@ import { Provider } from 'react-redux'
 import type { AppProps } from './App.types'
 
 export const App: React.FC<AppProps> = ({ store, children }) => (
-  <Provider store={store}>
-    <>{children}</>
-  </Provider>
+  <Provider store={store}>{children}</Provider>
 )

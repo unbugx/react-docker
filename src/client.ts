@@ -1,5 +1,5 @@
 import * as React from 'react'
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import UniversalRouter from 'universal-router'
 import routes from 'routes'
 
@@ -24,6 +24,8 @@ if (process.env.NODE_ENV !== 'production') {
 const store = configureAppStore()
 
 const container = document.getElementById('app')
+// eslint-disable-next-line @typescript-eslint/no-non-null-assertion
+const root = ReactDOM.createRoot(container!)
 
 const router = new UniversalRouter(routes, {
   baseUrl: getBasePath(),
@@ -34,7 +36,7 @@ async function render(location: Location) {
     const { component: route } = await router.resolve({
       pathname: `${getBasePath()}${getPath(location.pathname)}`,
     })
-    ReactDOM.render(React.createElement(App, { store }, route.component), container)
+    root.render(React.createElement(App, { store }, route.component))
   } catch (error) {
     if (process.env.NODE_ENV === 'production') {
       // eslint-disable-next-line no-console
