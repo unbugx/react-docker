@@ -12,7 +12,6 @@ module.exports = (options) => ({
         'src/components/ui/styles/vars.css', // Default breakpoints
       ],
     }),
-    require('precss'),
     require('autoprefixer'),
     require('postcss-nested'),
     require('postcss-nesting'),

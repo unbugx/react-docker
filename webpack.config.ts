@@ -63,16 +63,11 @@ const clientConfig: WebpackConfiguration = {
     historyApiFallback: true,
     allowedHosts: 'all',
     port: 44310,
-    // https: {
-    //   key: fs.readFileSync('./.cert/localhost-key.pem'),
-    //   cert: fs.readFileSync('./.cert/localhost-cert.pem'),
-    // },
     server: {
       type: 'https',
       options: {
         key: fs.readFileSync('./.cert/localhost-key.pem'),
         cert: fs.readFileSync('./.cert/localhost-cert.pem'),
-        // requestCert: true,
       },
     },
   },

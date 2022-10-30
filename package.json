@@ -17,9 +17,7 @@
   },
   "resolutions": {
     "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "@types/react": "18.0.24",
-    "@types/react-dom": "18.0.8"
+    "react-dom": "18.2.0"
   },
   "lint-staged": {
     "*.{ts,tsx}": [
@@ -87,7 +85,6 @@
     "postcss-nesting": "10.2.0",
     "postcss-omit-import-tilde": "1.0.1",
     "postcss-partial-import": "4.1.0",
-    "precss": "4.0.0",
     "prettier": "2.7.1",
     "prettier-stylelint": "0.4.2",
     "standard-version": "9.5.0",
